@@ -1,0 +1,42 @@
+body, html {
+  height: 100%;
+}
+.back-ground {
+  height: 100%;
+  background: #761791; /* For browsers that do not support gradients */
+  background: radial-gradient(#f422fc,  #cc23fc, #761791); /* Standard syntax */
+  background-position: center center;
+  background-repeat:  no-repeat;
+  background-attachment: fixed;
+  background-size:  cover;
+}
+
+.logo-lyft {
+  margin-top: 150%;
+  width: 50%;
+  height: 50%;
+}
+
+.abajo{
+  position: fixed;
+  bottom: 0;
+  width:100%;
+}
+
+.btn-rigth {
+  background-color: #f422fc;
+}
+
+.next {
+  color: #FFF;
+  padding: 3%;
+  background-color: #f422fc;
+}
+.fondo {
+  height: 100%;
+  background-image: url(https://media.giphy.com/media/vsRI1Ksy4cpwY/giphy.gif);
+  background-position: center center;
+  background-repeat:  no-repeat;
+  background-attachment: fixed;
+  background-size:  cover;
+}

@@ -5,11 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.css">
     <title>Registro Lyft</title>
   </head>
   <body>
     <section class="container">
-      <a href=""><span class="glyphicon glyphicon-menu-left icon-left"></span></a>
+      <a href="./singUp.html"><span class="glyphicon glyphicon-menu-left icon-left arrow"></span></a>
       <div class="text-center">
         <h1>Sing up</h1>
         <h4>Join now for free ride credit</h4>
@@ -21,15 +22,17 @@
             <ul class="dropdown-menu">
             </ul>
           </div>
-          <input id="numero" type="number" class="form-control" aria-label="..." placeholder="123456789">
+          <input id="telefono" type="number" class="form-control" aria-label="..." placeholder="123456789">
 			  </div>
         <h5 class="text-center">We'll send a text to verify your phone</h5>
       </div>
     </section>
     <section class="container-fluid text-center abajo next">
-      <a href="../views/verify.html" class="next">Next</a>
+      <a href="./verify.html" id="next" class="next">Next</a>
     </section>
     <script type="text/javascript" src="../js/jquery-3.2.1.min.js"></script>
     <script type="text/javascript" src="../js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.js"></script>
+    <script src="../js/main.js" charset="utf-8"></script>
   </body>
 </html>

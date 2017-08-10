@@ -14,15 +14,33 @@
         <h1>Sing up</h1>
         <h4>Join now for free ride credit</h4>
         <hr>
-        <div class="form-group">
-					<div class="input-group">
-			      <input name="nombre" id="nombre" type="text" required="" class="form-control" placeholder="First name">
-					  <input name="apellido" id="apellido" type="text" required="" class="form-control" placeholder="Last name">
-					</div>
-				</div>
-        <div class="form-group input-pd">
-	    		<input type="email" class="form-control" id="email" placeholder="Email">
-	  		</div>
+        <div class="row">
+          <div class="col-xs-6 input-off ">
+            <form action="">
+              <div class="form-group">
+                <input type="text" class="form-control" id="name" placeholder="Firts name">
+              </div>
+            </form>
+          </div>
+          <div class="col-xs-6 input-off">
+            <form action="">
+              <div class="form-group">
+                <input type="text" class="form-control" id="last-name" placeholder="Last name">
+              </div>
+            </form>
+          </div>
+          <div class="form-group input-off">
+  	    		<input type="email" class="form-control" id="email" placeholder="Email">
+  	  		</div>
+        </div>
+        <div class="checkbox">
+          <label>
+            <input type="checkbox"> I agree to Lyft's <a href="">Terms of Service</a>
+          </label>
+        </div>
+    </section>
+    <section class="container-fluid text-center abajo next">
+      <a href="../views/data-user.html" class="next">Next</a>
     </section>
     <script type="text/javascript" src="../js/jquery-3.2.1.min.js"></script>
     <script type="text/javascript" src="../js/bootstrap.min.js"></script>

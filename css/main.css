@@ -23,6 +23,10 @@ body, html {
   width:100%;
 }
 
+.arrow{
+
+}
+
 .btn-rigth {
   background-color: #f422fc;
 }
@@ -39,4 +43,24 @@ body, html {
   background-repeat:  no-repeat;
   background-attachment: fixed;
   background-size:  cover;
+}
+.key {
+	border: none;
+  background-color: white;
+  border-bottom: 2px solid #26ECCE;
+  width: 30%;
+  padding-left: 15px;
+}
+.btn-code {
+	background-color: #26ECCE;
+	color: #FFF;
+	border: none;
+	border-radius: 5px;
+	height: 45px;
+	font-size: 1.3em;
+	margin-top: 0.8em;
+}
+.input-off{
+  padding-left: 0px !important;
+  padding-right: 0px !important;
 }
